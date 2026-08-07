@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pred MMA</title>
+  <meta name="description" content="ML-driven MMA fight predictions with win probabilities and betting edges.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <div class="site-name">Pred <span>MMA</span></div>
+      <div class="nav-right">
+        <a href="index.html" class="nav-link active">Predictions</a>
+        <a href="about.html" class="nav-link">About</a>
+        <span class="nav-record" id="nav-record"></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section class="dash" id="dash" aria-label="Live track record">
+      <div class="kpi-strip" id="kpi-strip"></div>
+      <p class="dash-footnote" id="dash-footnote"></p>
+    </section>
+
+    <div id="app"></div>
+  </div>
+
+  <script src="script.js?v=12"></script>
+</body>
+</html>

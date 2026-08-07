@@ -1,0 +1,395 @@
+{
+  "fetched_at": "2026-08-07T14:51:07.201755Z",
+  "results": [
+    {
+      "a": "Mateusz Gamrot",
+      "b": "Quillan Salkilld",
+      "event_date": "2026-08-08",
+      "url_a": "https://www.bestfightodds.com/fighters/mateusz-gamrot-4189",
+      "url_b": "https://www.bestfightodds.com/fighters/quillan-salkilld-16405",
+      "oA": -131.0,
+      "oB": 111.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": 111.0,
+        "bfo_date": "2026-08-09",
+        "row_text": "Quillan Salkilld +111 -150 ... -142 Aug 9th 2026",
+        "delta_days": 1,
+        "opp_text": "class=\"oppcell\"> Quillan Salkilld"
+      },
+      "detail_b_page": {
+        "open": -131.0,
+        "bfo_date": "2026-08-09",
+        "row_text": "Mateusz Gamrot -131 +116 ... +125 Aug 9th 2026",
+        "delta_days": 1,
+        "opp_text": "class=\"oppcell\"> Mateusz Gamrot"
+      },
+      "vig": 1.041,
+      "event": "UFC Fight Night: Gamrot vs. Salkilld",
+      "date": "2026-08-08",
+      "status": "upcoming",
+      "source": "bfo"
+    },
+    {
+      "a": "Diego Ferreira",
+      "b": "Billy Quarantillo",
+      "event_date": "2026-08-08",
+      "url_a": "https://www.bestfightodds.com/fighters/diego-ferreira-5180",
+      "url_b": "https://www.bestfightodds.com/fighters/billy-quarantillo-4159",
+      "oA": -205.0,
+      "oB": 177.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": 177.0,
+        "bfo_date": "2026-08-09",
+        "row_text": "Billy Quarantillo +177 +140 ... +159 Aug 9th 2026",
+        "delta_days": 1,
+        "opp_text": "class=\"oppcell\"> Billy Quarantillo"
+      },
+      "detail_b_page": {
+        "open": -205.0,
+        "bfo_date": "2026-08-09",
+        "row_text": "Diego Ferreira -205 -182 ... -175 Aug 9th 2026",
+        "delta_days": 1,
+        "opp_text": "class=\"oppcell\"> Diego Ferreira"
+      },
+      "vig": 1.0331,
+      "event": "UFC Fight Night: Gamrot vs. Salkilld",
+      "date": "2026-08-08",
+      "status": "upcoming",
+      "source": "bfo"
+    },
+    {
+      "a": "Darren Elkins",
+      "b": "Yadier del Valle",
+      "event_date": "2026-08-08",
+      "url_a": "https://www.bestfightodds.com/fighters/darren-elkins-1768",
+      "url_b": "https://www.bestfightodds.com/fighters/yadier-del-valle-20222",
+      "oA": 263.0,
+      "oB": -325.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": -325.0,
+        "bfo_date": "2026-08-09",
+        "row_text": "Yadier Del Valle -325 -1667 ... -750 Aug 9th 2026",
+        "delta_days": 1,
+        "opp_text": "class=\"oppcell\"> Yadier Del Valle"
+      },
+      "detail_b_page": {
+        "open": 263.0,
+        "bfo_date": "2026-08-09",
+        "row_text": "Darren Elkins +263 +490 ... +850 Aug 9th 2026",
+        "delta_days": 1,
+        "opp_text": "class=\"oppcell\"> Darren Elkins"
+      },
+      "vig": 1.0402,
+      "event": "UFC Fight Night: Gamrot vs. Salkilld",
+      "date": "2026-08-08",
+      "status": "upcoming",
+      "source": "bfo"
+    },
+    {
+      "a": "Diyar Nurgozhay",
+      "b": "Bruno Lopes",
+      "event_date": "2026-08-08",
+      "url_a": "https://www.bestfightodds.com/fighters/diyar-nurgozhay-11550",
+      "url_b": "https://www.bestfightodds.com/fighters/bruno-lopes-14106",
+      "oA": 186.0,
+      "oB": -220.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": -220.0,
+        "bfo_date": "2026-08-08",
+        "row_text": "Bruno Lopes -220 +120 ... +130 Aug 8th 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Bruno Lopes"
+      },
+      "detail_b_page": {
+        "open": 186.0,
+        "bfo_date": "2026-08-08",
+        "row_text": "Diyar Nurgozhay +186 -160 ... -145 Aug 8th 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Diyar Nurgozhay"
+      },
+      "vig": 1.0372,
+      "event": "UFC Fight Night: Gamrot vs. Salkilld",
+      "date": "2026-08-08",
+      "status": "upcoming",
+      "source": "bfo"
+    },
+    {
+      "a": "Uros Medic",
+      "b": "Daniel Rodriguez",
+      "event_date": "2026-08-01",
+      "url_a": "https://www.bestfightodds.com/fighters/uros-medic-10229",
+      "url_b": "https://www.bestfightodds.com/fighters/daniel-rodriguez-6856",
+      "oA": -501.0,
+      "oB": 386.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": 386.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Daniel Rodriguez +386 +280 ... +315 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Daniel Rodriguez"
+      },
+      "detail_b_page": {
+        "open": -501.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Uros Medic -501 -435 ... -350 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Uros Medic"
+      },
+      "vig": 1.0394,
+      "event": "UFC Fight Night: Medic vs. Rodriguez",
+      "date": "2026-08-01",
+      "status": "completed",
+      "source": "bfo"
+    },
+    {
+      "a": "Jan Blachowicz",
+      "b": "Navajo Stirling",
+      "event_date": "2026-08-01",
+      "url_a": "https://www.bestfightodds.com/fighters/jan-blachowicz-2371",
+      "url_b": "https://www.bestfightodds.com/fighters/navajo-stirling-18344",
+      "oA": 170.0,
+      "oB": -200.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": -200.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Navajo Stirling -200 -370 ... -330 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Navajo Stirling"
+      },
+      "detail_b_page": {
+        "open": 170.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Jan Blachowicz +170 +250 ... +290 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Jan Blachowicz"
+      },
+      "vig": 1.037,
+      "event": "UFC Fight Night: Medic vs. Rodriguez",
+      "date": "2026-08-01",
+      "status": "completed",
+      "source": "bfo"
+    },
+    {
+      "a": "Aleksandar Rakic",
+      "b": "Marcin Tybura",
+      "event_date": "2026-08-01",
+      "url_a": "https://www.bestfightodds.com/fighters/aleksandar-rakic-7356",
+      "url_b": "https://www.bestfightodds.com/fighters/marcin-tybura-6200",
+      "oA": -250.0,
+      "oB": 210.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": 210.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Marcin Tybura +210 +260 ... +310 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Marcin Tybura"
+      },
+      "detail_b_page": {
+        "open": -250.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Aleksandar Rakic -250 -420 ... -350 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Aleksandar Rakic"
+      },
+      "vig": 1.0369,
+      "event": "UFC Fight Night: Medic vs. Rodriguez",
+      "date": "2026-08-01",
+      "status": "completed",
+      "source": "bfo"
+    },
+    {
+      "a": "Dusko Todorovic",
+      "b": "Robert Valentin",
+      "event_date": "2026-08-01",
+      "url_a": "https://www.bestfightodds.com/fighters/dusko-todorovic-9397",
+      "url_b": "https://www.bestfightodds.com/fighters/robert-valentin-13471",
+      "oA": 110.0,
+      "oB": -130.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": -130.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Robert Valentin -130 -175 ... -150 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Robert Valentin"
+      },
+      "detail_b_page": {
+        "open": 110.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Dusko Todorovic +110 +125 ... +140 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Dusko Todorovic"
+      },
+      "vig": 1.0414,
+      "event": "UFC Fight Night: Medic vs. Rodriguez",
+      "date": "2026-08-01",
+      "status": "completed",
+      "source": "bfo"
+    },
+    {
+      "a": "Ludovit Klein",
+      "b": "Tofiq Musayev",
+      "event_date": "2026-08-01",
+      "url_a": "https://www.bestfightodds.com/fighters/ludovit-klein-7610",
+      "url_b": "https://www.bestfightodds.com/fighters/tofiq-musayev-13682",
+      "oA": -145.0,
+      "oB": 125.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": 125.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Tofiq Musayev +125 +200 ... +225 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Tofiq Musayev"
+      },
+      "detail_b_page": {
+        "open": -145.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Ludovit Klein -145 -275 ... -250 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Ludovit Klein"
+      },
+      "vig": 1.0363,
+      "event": "UFC Fight Night: Medic vs. Rodriguez",
+      "date": "2026-08-01",
+      "status": "completed",
+      "source": "bfo"
+    },
+    {
+      "a": "Mateusz Rebecki",
+      "b": "Kyle Prepolec",
+      "event_date": "2026-08-01",
+      "url_a": "https://www.bestfightodds.com/fighters/mateusz-rebecki-10102",
+      "url_b": "https://www.bestfightodds.com/fighters/kyle-prepolec-3617",
+      "oA": -500.0,
+      "oB": 385.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": 385.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Kyle Prepolec +385 +450 ... +709 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Kyle Prepolec"
+      },
+      "detail_b_page": {
+        "open": -500.0,
+        "bfo_date": "2026-08-01",
+        "row_text": "Mateusz Rebecki -500 -1100 ... -649 Aug 1st 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Mateusz Rebecki"
+      },
+      "vig": 1.0395,
+      "event": "UFC Fight Night: Medic vs. Rodriguez",
+      "date": "2026-08-01",
+      "status": "completed",
+      "source": "bfo"
+    }
+  ],
+  "roi_simulation": {
+    "n_bets": 6,
+    "staked": 6.0,
+    "pnl": -1.9,
+    "roi_pct": -31.67,
+    "total_gain_pct": -1.9,
+    "bankroll": 98.1,
+    "bets": [
+      {
+        "date": "2026-08-01",
+        "a": "Uros Medic",
+        "b": "Daniel Rodriguez",
+        "side": "B",
+        "odds": 386.0,
+        "edge": 13.92,
+        "won": false,
+        "profit": -1.0
+      },
+      {
+        "date": "2026-08-01",
+        "a": "Jan Blachowicz",
+        "b": "Navajo Stirling",
+        "side": "B",
+        "odds": -200.0,
+        "edge": 14.33,
+        "won": true,
+        "profit": 0.5
+      },
+      {
+        "date": "2026-08-01",
+        "a": "Aleksandar Rakic",
+        "b": "Marcin Tybura",
+        "side": "A",
+        "odds": -250.0,
+        "edge": 1.27,
+        "won": true,
+        "profit": 0.4
+      },
+      {
+        "date": "2026-08-01",
+        "a": "Dusko Todorovic",
+        "b": "Robert Valentin",
+        "side": "A",
+        "odds": 110.0,
+        "edge": 28.38,
+        "won": false,
+        "profit": -1.0
+      },
+      {
+        "date": "2026-08-01",
+        "a": "Ludovit Klein",
+        "b": "Tofiq Musayev",
+        "side": "A",
+        "odds": -145.0,
+        "edge": 10.72,
+        "won": false,
+        "profit": -1.0
+      },
+      {
+        "date": "2026-08-01",
+        "a": "Mateusz Rebecki",
+        "b": "Kyle Prepolec",
+        "side": "A",
+        "odds": -500.0,
+        "edge": 2.37,
+        "won": true,
+        "profit": 0.2
+      }
+    ]
+  }
+}

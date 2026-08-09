@@ -16,12 +16,12 @@ const EVENTS = [
     name: "UFC Fight Night: Gamrot vs. Salkilld",
     date: "2026-08-08",
     location: "Las Vegas, NV",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Mateusz Gamrot", b: "Quillan Salkilld", pA: 41.4, pB: 58.6, oA: -131, oB: 111, me: true, result: null, charts: "fights/mateusz-gamrot-vs-quillan-salkilld" },
-      { a: "Diego Ferreira", b: "Billy Quarantillo", pA: 58.4, pB: 41.6, oA: -205, oB: 177, me: false, result: null, charts: "fights/diego-ferreira-vs-billy-quarantillo" },
-      { a: "Darren Elkins", b: "Yadier del Valle", pA: 35.4, pB: 64.6, oA: 263, oB: -325, me: false, result: null, charts: "fights/darren-elkins-vs-yadier-del-valle" },
-      { a: "Diyar Nurgozhay", b: "Bruno Lopes", pA: 78.5, pB: 21.5, oA: 186, oB: -220, me: false, result: null, charts: "fights/diyar-nurgozhay-vs-bruno-lopes" },
+      { a: "Mateusz Gamrot", b: "Quillan Salkilld", pA: 41.4, pB: 58.6, oA: -131, oB: 111, me: true, result: "B", charts: "fights/mateusz-gamrot-vs-quillan-salkilld" },
+      { a: "Diego Ferreira", b: "Billy Quarantillo", pA: 58.4, pB: 41.6, oA: -205, oB: 177, me: false, result: "A", charts: "fights/diego-ferreira-vs-billy-quarantillo" },
+      { a: "Darren Elkins", b: "Yadier del Valle", pA: 35.4, pB: 64.6, oA: 263, oB: -325, me: false, result: "B", charts: "fights/darren-elkins-vs-yadier-del-valle" },
+      { a: "Diyar Nurgozhay", b: "Bruno Lopes", pA: 78.5, pB: 21.5, oA: 186, oB: -220, me: false, result: "A", charts: "fights/diyar-nurgozhay-vs-bruno-lopes" },
     ]
   },
   {

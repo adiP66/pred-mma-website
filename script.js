@@ -5,7 +5,7 @@
  *   Push a new object to EVENTS[].
  *   pA/pB = null means "awaiting model output."
  *   result = "A" | "B" | null (null = not yet fought).
- *   For upcoming fights with charts, set:
+ *   For fights with charts (any status), set:
  *     charts: "fights/<slug>"
  *   Expected PNGs under that folder:
  *     feature_impact.png, grouped_stats.png, individual_stats.png
@@ -455,7 +455,7 @@ function betBadgeHtml(f, ev) {
 function renderFight(f, ev, idx) {
   const has = f.pA != null;
   const pickA = has && f.pA >= 50;
-  const clickable = ev.status === "upcoming";
+  const clickable = f.charts != null;
   const fid = `fight-${ev.date}-${idx}`;
 
   let edgeA = "", edgeB = "";
@@ -520,7 +520,7 @@ function renderEvent(ev, isFirst) {
   const tagCls = ev.status === "upcoming" ? "tag-upcoming" : "tag-completed";
 
   const rows = ev.fights.map((f, i) => renderFight(f, ev, i)).join("");
-  const hint = ev.status === "upcoming"
+  const hint = ev.fights.some(f => f.charts != null)
     ? `<p class="fights-hint">Click a fight to view feature impact and profile charts</p>`
     : "";
 

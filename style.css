@@ -263,7 +263,8 @@ nav {
 
 .fights-table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   margin-top: 4px;
 }
 
@@ -290,7 +291,25 @@ nav {
 .fights-table tr:last-child td { border-bottom: none; }
 .fights-table tr { background: var(--bg-row); transition: background 0.1s; }
 .fights-table tr:hover { background: var(--bg-row-hover); }
-.fights-table tr.main-event { border-left: 3px solid var(--red); }
+.fights-table tr.main-event td:first-child {
+  box-shadow: inset 3px 0 0 var(--red);
+}
+.fights-table tr.edge-pick > td {
+  border-top: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold);
+}
+.fights-table tr.edge-pick > td:first-child {
+  border-left: 1px solid var(--gold);
+}
+.fights-table tr.edge-pick > td:last-child {
+  border-right: 1px solid var(--gold);
+}
+.fights-table tr.edge-pick:last-child > td {
+  border-bottom: 1px solid var(--gold);
+}
+.fights-table tr.main-event.edge-pick > td:first-child {
+  box-shadow: inset 3px 0 0 var(--red);
+}
 
 .fname { font-weight: 600; font-size: 15px; }
 .fname.pick { color: var(--green); }
@@ -485,6 +504,28 @@ nav {
   margin-bottom: 24px;
 }
 .about-text strong { color: var(--text); }
+.about-byline {
+  margin: -12px 0 28px;
+}
+.about-linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-dim);
+  text-decoration: none;
+  letter-spacing: 0.1px;
+  transition: color 0.15s;
+}
+.about-linkedin:hover { color: var(--text); }
+.about-linkedin-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.about-linkedin:hover .about-linkedin-icon { opacity: 1; }
 .dimmed { font-size: 12px; color: var(--text-faint); }
 
 .section-label {

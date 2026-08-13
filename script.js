@@ -5,6 +5,9 @@
  *   Push a new object to EVENTS[].
  *   pA/pB = null means "awaiting model output."
  *   result = "A" | "B" | null (null = not yet fought).
+ *   me = true marks the main event (red left bar).
+ *   edge = true/false forces the gold +EV border; omit to auto-detect
+ *   when the model favorite has +edge vs open odds.
  *   For fights with charts (any status), set:
  *     charts: "fights/<slug>"
  *   Expected PNGs under that folder:
@@ -12,6 +15,20 @@
  */
 
 const EVENTS = [
+  {
+    name: " UFC 330: Makhachev vs. Machado Garry",
+    date: "2026-08-15",
+    location: " Philadelphia, Pennsylvania, USA",
+    status: "upcoming",
+    fights: [
+      { a: "Islam Makhachev", b: "Ian Machado Garry", pA: 58.2, pB: 41.8, oA: -317, oB: 300, me: true, charts: "fights/ISLAM MAKHACHEV_vs_IAN MACHADO GARRY"},
+      { a: "Mansur Abdul-Malik", b: "Dustin Stoltzfus", pA: 84.6, pB: 15.4, oA: -614, oB: 567, me: false, charts: 'fights/MANSUR ABDUL-MALIK_vs_DUSTIN STOLTZFUS'},
+      { a: "Edson Barboza", b: "Esteban Ribovics", pA: 36.0, pB: 64.0, oA: 525, oB: -567, me: false , charts: "fights/EDSON BARBOZA_vs_Esteban Ribovics"},
+      { a: "Jalin Turner", b: "Kaue Fernandes", pA: 42.6, pB: 57.4, oA: -150, oB: +144, me: false, edge :true , charts:"fights/JALIN TURNER_vs_KAUE FERNANDES"},
+      { a: "Donte Johnson", b: "Eric McConico", pA: 90.8, pB: 9.2, oA: -277, oB: +217, me: false, edge:true, charts:"fights/DONTE JOHNSON_vs_Eric McConico"},
+      { a: "Jeremiah Wells", b: "Myktybek Orolbai", pA: 21.5, pB: 78.5, oA: +733, oB: -809, me: false , charts: "fights/JEREMIAH WELLS_vs_MYKTYBEK OROLBAI"},
+    ]
+  },
   {
     name: "UFC Fight Night: Gamrot vs. Salkilld",
     date: "2026-08-08",
@@ -38,6 +55,7 @@ const EVENTS = [
       { a: "Mateusz Rebecki", b: "Kyle Prepolec", pA: 85.7, pB: 14.3, oA: -500, oB: 385, me: false, result: "A" },
     ]
   }
+  
 ];
 
 const CHART_SPECS = [
@@ -66,6 +84,18 @@ function impliedProb(o) {
 function decimalOdds(o) {
   if (o == null) return null;
   return o > 0 ? 1 + o / 100 : 1 + 100 / Math.abs(o);
+}
+
+function hasPositiveEdge(f) {
+  if (f.edge === true) return true;
+  if (f.edge === false) return false;
+  if (f.pA == null) return false;
+  const pickA = f.pA >= 50;
+  const conf = pickA ? f.pA : f.pB;
+  const odds = pickA ? f.oA : f.oB;
+  const ip = impliedProb(odds);
+  if (ip == null) return false;
+  return conf / 100 - ip > 0;
 }
 
 /**
@@ -486,6 +516,7 @@ function renderFight(f, ev, idx) {
 
   const rowCls = [
     f.me ? "main-event" : "",
+    hasPositiveEdge(f) ? "edge-pick" : "",
     clickable ? "fight-row clickable" : "fight-row",
   ].filter(Boolean).join(" ");
 

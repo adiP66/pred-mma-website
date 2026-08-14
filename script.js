@@ -25,6 +25,9 @@ const EVENTS = [
       { a: "Mansur Abdul-Malik", b: "Dustin Stoltzfus", pA: 84.6, pB: 15.4, oA: -614, oB: 567, me: false, charts: 'fights/MANSUR ABDUL-MALIK_vs_DUSTIN STOLTZFUS'},
       { a: "Edson Barboza", b: "Esteban Ribovics", pA: 36.0, pB: 64.0, oA: 525, oB: -567, me: false , charts: "fights/EDSON BARBOZA_vs_Esteban Ribovics"},
       { a: "Jalin Turner", b: "Kaue Fernandes", pA: 42.6, pB: 57.4, oA: -150, oB: +144, me: false, edge :true , charts:"fights/JALIN TURNER_vs_KAUE FERNANDES"},
+      { a: "Neil Magny", b: "Ramiz Brahimaj", pA: 57.0, pB: 43.0, oA: 127, oB: -133, me: false, edge :true , charts:"fights/NEIL MAGNY_vs_RAMIZ BRAHIMAJ"},
+      { a: "Vicente Luque", b: "Tresean Gore", pA: 68.8, pB: 31.2, oA: 104, oB: -108, me: false, edge :true , charts:"fights/Vicente Luque_vs_Tresean Gore"},
+      { a: "Chidi Njokuani", b: "Joel Alvarez", pA: 34.4, pB: 65.6, oA: 252, oB: -307, me: false, edge :true , charts:"fights/CHIDI NJOKUANI_vs_Joel Alvarez"},
       { a: "Donte Johnson", b: "Eric McConico", pA: 90.8, pB: 9.2, oA: -277, oB: +217, me: false, edge:true, charts:"fights/DONTE JOHNSON_vs_Eric McConico"},
       { a: "Jeremiah Wells", b: "Myktybek Orolbai", pA: 21.5, pB: 78.5, oA: +733, oB: -809, me: false , charts: "fights/JEREMIAH WELLS_vs_MYKTYBEK OROLBAI"},
     ]

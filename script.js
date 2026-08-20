@@ -21,9 +21,9 @@ const EVENTS = [
     location: "Las Vegas, NV",
     status: "upcoming",
     fights: [
-      { a: "Anthony Hernandez", b: "Gregory Rodrigues", pA: 71.4, pB: 28.6, oA: null, oB: null, me: true, result: null, charts: "fights/ANTHONY HERNANDEZ_vs_GREGORY RODRIGUES" },
+      { a: "Anthony Hernandez", b: "Gregory Rodrigues", pA: 71.4, pB: 28.6, oA: -183, oB: 145, me: true, result: null, charts: "fights/ANTHONY HERNANDEZ_vs_GREGORY RODRIGUES" },
       { a: "Serghei Spivac", b: "Vitor Petrino", pA: 35.7, pB: 64.3, oA: 200, oB: -235, me: false, result: null, charts: "fights/SERGHEI SPIVAC_vs_VITOR PETRINO" },
-      { a: "MarQuel Mederos", b: "Mason Jones", pA: 64.0, pB: 36.0, oA: null, oB: null, me: false, result: null, charts: "fights/MarQuel Mederos_vs_MASON JONES" },
+      { a: "MarQuel Mederos", b: "Mason Jones", pA: 64.0, pB: 36.0, oA: 239, oB: -291, me: false, result: null, charts: "fights/MarQuel Mederos_vs_MASON JONES" },
       { a: "Reinier de Ridder", b: "Roman Dolidze", pA: 71.2, pB: 28.8, oA: -350, oB: 285, me: false, result: null, charts: "fights/REINIER DE RIDDER_vs_ROMAN DOLIDZE" },
       { a: "Kennedy Nzechukwu", b: "Shamil Gaziev", pA: 67.1, pB: 32.9, oA: -130, oB: 110, me: false, result: null, charts: "fights/KENNEDY NZECHUKWU_vs_Shamil Gaziev" },
       { a: "Chris Padilla", b: "Nasrat Haqparast", pA: 71.9, pB: 28.1, oA: 135, oB: -155, me: false, result: null, charts: "fights/Chris Padilla_vs_NASRAT HAQPARAST" },

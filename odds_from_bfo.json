@@ -1,6 +1,172 @@
 {
-  "fetched_at": "2026-08-07T14:51:07.201755Z",
+  "fetched_at": "2026-08-20T14:29:33.994773Z",
   "results": [
+    {
+      "a": "Anthony Hernandez",
+      "b": "Gregory Rodrigues",
+      "event_date": "2026-08-22",
+      "url_a": "https://www.bestfightodds.com/fighters/joe-hernandez-2019",
+      "url_b": "https://www.bestfightodds.com/fighters/ana-rodrigues-21227",
+      "oA": null,
+      "oB": null,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": false,
+      "error": "row miss a_page=False b_page=False",
+      "detail_a_page": null,
+      "detail_b_page": null,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "2026-08-22",
+      "status": "upcoming"
+    },
+    {
+      "a": "Serghei Spivac",
+      "b": "Vitor Petrino",
+      "event_date": "2026-08-22",
+      "url_a": "https://www.bestfightodds.com/fighters/serghei-spivac-9985",
+      "url_b": "https://www.bestfightodds.com/fighters/vitor-petrino-14346",
+      "oA": 200.0,
+      "oB": -235.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": -235.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Vitor Petrino -235 -175 ... -140 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Vitor Petrino"
+      },
+      "detail_b_page": {
+        "open": 200.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Serghei Spivac +200 +118 ... +140 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Serghei Spivac"
+      },
+      "vig": 1.0348,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "2026-08-22",
+      "status": "upcoming"
+    },
+    {
+      "a": "MarQuel Mederos",
+      "b": "Mason Jones",
+      "event_date": "2026-08-22",
+      "url_a": "https://www.bestfightodds.com/fighters/marquel-mederos-10796",
+      "url_b": "https://www.bestfightodds.com/fighters/al-jones-8290",
+      "oA": null,
+      "oB": null,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": false,
+      "error": "row miss a_page=True b_page=False",
+      "detail_a_page": {
+        "open": -300.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Mason Jones -300 -300 ... -275 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Mason Jones"
+      },
+      "detail_b_page": null,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "2026-08-22",
+      "status": "upcoming"
+    },
+    {
+      "a": "Reinier de Ridder",
+      "b": "Roman Dolidze",
+      "event_date": "2026-08-22",
+      "url_a": "https://www.bestfightodds.com/fighters/reinier-de-ridder-8891",
+      "url_b": "https://www.bestfightodds.com/fighters/roman-dolidze-9094",
+      "oA": -350.0,
+      "oB": 285.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": 285.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Roman Dolidze +285 +285 ... +316 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Roman Dolidze"
+      },
+      "detail_b_page": {
+        "open": -350.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Reinier de Ridder -350 -400 ... -385 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Reinier de Ridder"
+      },
+      "vig": 1.0375,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "2026-08-22",
+      "status": "upcoming"
+    },
+    {
+      "a": "Kennedy Nzechukwu",
+      "b": "Shamil Gaziev",
+      "event_date": "2026-08-22",
+      "url_a": "https://www.bestfightodds.com/fighters/kennedy-nzechukwu-7454",
+      "url_b": "https://www.bestfightodds.com/fighters/shamil-gaziev-12522",
+      "oA": -130.0,
+      "oB": 110.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": 110.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Shamil Gaziev +110 -150 ... -135 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Shamil Gaziev"
+      },
+      "detail_b_page": {
+        "open": -130.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Kennedy Nzechukwu -130 +110 ... +125 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Kennedy Nzechukwu"
+      },
+      "vig": 1.0414,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "2026-08-22",
+      "status": "upcoming"
+    },
+    {
+      "a": "Chris Padilla",
+      "b": "Nasrat Haqparast",
+      "event_date": "2026-08-22",
+      "url_a": "https://www.bestfightodds.com/fighters/chris-padilla-6093",
+      "url_b": "https://www.bestfightodds.com/fighters/nasrat-haqparast-7622",
+      "oA": 135.0,
+      "oB": -155.0,
+      "detail_a": null,
+      "detail_b": null,
+      "ok": true,
+      "error": null,
+      "detail_a_page": {
+        "open": -155.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Nasrat Haqparast -155 -125 ... -115 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Nasrat Haqparast"
+      },
+      "detail_b_page": {
+        "open": 135.0,
+        "bfo_date": "2026-08-22",
+        "row_text": "Chris Padilla +135 -105 ... +102 Aug 22nd 2026",
+        "delta_days": 0,
+        "opp_text": "class=\"oppcell\"> Chris Padilla"
+      },
+      "vig": 1.0334,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "2026-08-22",
+      "status": "upcoming"
+    },
     {
       "a": "Mateusz Gamrot",
       "b": "Quillan Salkilld",

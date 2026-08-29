@@ -16,14 +16,14 @@
 
 const EVENTS = [
 {
-    name: "UFC Fight Night: Nurmagomedov vs. Song ",
+    name: "UFC Fight Night: Nurmagomedov vs. Song",
     date: "2026-08-29",
     location: "Shanghai, China",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Umar Nurmagomedov", b: "Song Yadong", pA: 74.1, pB: 25.9, oA: -526, oB: 424, me: true, result: null, charts: "fights/umar_vs_song" },
       { a: "Rei Tsuruya", b: "Kevin Borjas", pA: 75.9, pB: 24.1, oA: -611, oB: 489, me: false, result: 'A', charts: "fights/tsuruya_vs_borjas" },
       { a: "Alex Perez", b: "Sumudaerji", pA: 23.3, pB: 76.7, oA: 181, oB: -219, me: false, result: 'B', charts: "fights/alex_perez_vs_sumudaerji" },
+      { a: "Jack Jenkins", b: "Sean Woodson", pA: 47.5, pB: 52.5, oA: +124, oB: -146, me: false, result: 'B', charts: "fights/woodson_vs_jenkins"},
     ]
   },
   {

@@ -15,6 +15,31 @@
  */
 
 const EVENTS = [
+  {
+    name: "UFC Fight Night: Hooker vs. Parnasse",
+    date: "2026-09-05",
+    location: "Paris, Ile-de-France, France",
+    status: "upcoming",
+    fights: [
+      { a: "Fares Ziam", b: "Axel Sola", pA: 80.4, pB: 19.6, oA: -149, oB: +128, me: false, charts: "fights/ziam_vs_sola" },
+      { a: "Daniil Donchenko", b: "Punahele Soriano", pA: 85.6, pB: 14.4, oA: -251, oB: +198, me: false, charts: "fights/don_vs_soriano" }
+    ]
+  },
+  {
+    name: "UFC Fight Night: Hernandez vs. Rodrigues",
+    date: "2026-08-22",
+    location: "Las Vegas, NV",
+    status: "completed",
+    fights: [
+      { a: "Anthony Hernandez", b: "Gregory Rodrigues", pA: 71.4, pB: 28.6, oA: -183, oB: 145, me: true, result: 'B', charts: "fights/ANTHONY HERNANDEZ_vs_GREGORY RODRIGUES" },
+      { a: "Serghei Spivac", b: "Vitor Petrino", pA: 35.7, pB: 64.3, oA: 134, oB: -168, me: false, result: 'B', charts: "fights/SERGHEI SPIVAC_vs_VITOR PETRINO" },
+      { a: "MarQuel Mederos", b: "Mason Jones", pA: 64.0, pB: 36.0, oA: 239, oB: -291, me: false, result: 'A', charts: "fights/MarQuel Mederos_vs_MASON JONES" },
+      { a: "Reinier de Ridder", b: "Roman Dolidze", pA: 71.2, pB: 28.8, oA: -382, oB: 330, me: false, result: 'A', charts: "fights/REINIER DE RIDDER_vs_ROMAN DOLIDZE" },
+      { a: "Kennedy Nzechukwu", b: "Shamil Gaziev", pA: 67.1, pB: 32.9, oA: 114, oB: -137, me: false, result: 'B', charts: "fights/KENNEDY NZECHUKWU_vs_Shamil Gaziev" },
+      { a: "Chris Padilla", b: "Nasrat Haqparast", pA: 71.9, pB: 28.1, oA: -103, oB: -117, me: false, result: 'A', charts: "fights/Chris Padilla_vs_NASRAT HAQPARAST" },
+    ]
+},
+
 {
     name: "UFC Fight Night: Nurmagomedov vs. Song",
     date: "2026-08-29",

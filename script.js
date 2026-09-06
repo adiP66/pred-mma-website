@@ -19,10 +19,10 @@ const EVENTS = [
     name: "UFC Fight Night: Hooker vs. Parnasse",
     date: "2026-09-05",
     location: "Paris, Ile-de-France, France",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Fares Ziam", b: "Axel Sola", pA: 80.4, pB: 19.6, oA: -149, oB: +128, me: false, charts: "fights/ziam_vs_sola" },
-      { a: "Daniil Donchenko", b: "Punahele Soriano", pA: 85.6, pB: 14.4, oA: -251, oB: +198, me: false, charts: "fights/don_vs_soriano" }
+      { a: "Fares Ziam", b: "Axel Sola", pA: 80.4, pB: 19.6, oA: -149, oB: +128, me: false, result: 'B', charts: "fights/ziam_vs_sola" },
+      { a: "Daniil Donchenko", b: "Punahele Soriano", pA: 85.6, pB: 14.4, oA: -251, oB: +198, me: false, result='A', charts: "fights/don_vs_soriano" }
     ]
   },
   {

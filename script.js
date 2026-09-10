@@ -15,6 +15,26 @@
  */
 
 const EVENTS = [
+   {
+    name: "Noche UFC: Silva vs. Delgado",
+    date: "2026-12-05",
+    location: "Glendale, Arizona, USA",
+    status: "upcoming",
+    fights: [
+      { a: "Jean Silva", b: "Jose Delgado", pA: 60.1, pB: 39.9, oA: -425, oB: +337, me: true, charts: "fights/silva_v_delgado" },
+      { a: "Brandon Moreno", b: "Joseph Morales", pA: 63.1, pB: 36.9, oA: 100, oB: -120, me: false, charts: "fights/moreno_v_morales" },
+      { a: "Waldo Cortes Acosta", b: "Curtis Blaydes", pA: 68.3, pB: 31.7, oA: -190, oB: +165, me: false, charts: "fights/acosta_v_blaydes" },
+      { a: "David Martinez", b: "Dan Ige", pA: 89.0, pB: 11.0, oA: -400, oB: +316, me: false, charts: "fights/martinez_v_ige" },
+      { a: "Tim Elliot", b: "Edgar Chairez", pA: 23.4, pB: 76.6, oA: +183, oB: -215, me: false, charts: "fights/tim_vs_edgar" },
+      { a: "Ignacio Bahamondes", b: "Muslim Salikhov", pA: 86.7, pB: 13.3, oA: -525, oB: +400, me: false, charts: "fights/salikhov_v_ignacio" },
+      { a: "Rafa Garcia", b: "Rongzhu", pA: 66.7, pB: 33.3, oA: +140, oB: -160, me: false, charts: "fights/garcia_v_rongzhu" },
+
+    ]
+  },
+ 
+
+
+
   {
     name: "UFC Fight Night: Hooker vs. Parnasse",
     date: "2026-09-05",

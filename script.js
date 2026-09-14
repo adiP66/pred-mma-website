@@ -24,7 +24,6 @@ const EVENTS = [
       { a: "Joshua Van", b: "Alexandre Pantoja", pA: 93.0, pB: 7.0, oA: -130, oB: +107, me: true, result: null, charts: "fights/Joshua Van_vs_ALEXANDRE PANTOJA" },
       { a: "Arman Tsarukyan", b: "Mauricio Ruffy", pA: 61.5, pB: 38.5, oA: -333, oB: +250, me: false, result: null, charts: "fights/ARMAN TSARUKYAN_vs_Mauricio Ruffy" },
       { a: "Renato Moicano", b: "Brian Ortega", pA: 83.4, pB: 16.6, oA: -200, oB: +169, me: false, result: null, charts: "fights/Renato Moicano_vs_BRIAN ORTEGA" },
-      { a: "Patricio Pitbull", b: "Dooho Choi", pA: null, pB: null, oA: +216, oB: -260, me: false, result: null },
       { a: "Alonzo Menifield", b: "Iwo Baraniewski", pA: 30.7, pB: 69.3, oA: +208, oB: -250, me: false, result: null, charts: "fights/Alonzo Menifield_vs_Iwo Baraniewski" },
       { a: "Marlon Vera", b: "Charles Jourdain", pA: 40.5, pB: 59.5, oA: +195, oB: -230, me: false, result: null, charts: "fights/MARLON VERA_vs_Charles Jourdain" },
       { a: "Tai Tuivasa", b: "Robelis Despaigne", pA: 62.3, pB: 37.7, oA: +430, oB: -625, me: false, result: null, charts: "fights/Tai Tuivasa_vs_ROBELIS DESPAIGNE" },

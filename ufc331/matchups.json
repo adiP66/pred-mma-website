@@ -1,0 +1,72 @@
+[
+  {
+    "fighter_a": "Joshua Van",
+    "fighter_b": "Alexandre Pantoja",
+    "weight_class": "Flyweight",
+    "scheduled_rounds": 5,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Arman Tsarukyan",
+    "fighter_b": "Mauricio Ruffy",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Patricio Pitbull",
+    "fighter_b": "Dooho Choi",
+    "weight_class": "Featherweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Renato Moicano",
+    "fighter_b": "Brian Ortega",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Alonzo Menifield",
+    "fighter_b": "Iwo Baraniewski",
+    "weight_class": "Light Heavyweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Marlon Vera",
+    "fighter_b": "Charles Jourdain",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Tai Tuivasa",
+    "fighter_b": "Robelis Despaigne",
+    "weight_class": "Heavyweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Ryan Gandra",
+    "fighter_b": "Ozzy Diaz",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Edmen Shahbazyan",
+    "fighter_b": "Brunno Ferreira",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  },
+  {
+    "fighter_a": "Giga Chikadze",
+    "fighter_b": "Joanderson Brito",
+    "weight_class": "Featherweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-19"
+  }
+]

@@ -362,6 +362,11 @@ nav {
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.03);
 }
+.bet-bet {
+  color: var(--gold);
+  border: 1px solid rgba(201, 152, 46, 0.55);
+  background: rgba(201, 152, 46, 0.14);
+}
 
 /* CLICKABLE FIGHT + INLINE VIZ (upcoming) */
 .fights-hint {

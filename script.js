@@ -175,9 +175,14 @@ function hasPositiveEdge(f) {
   return conf / 100 - ip > 0;
 }
 
+function isModelBet(f) {
+  if (f.bet === true || f.picked === true) return true;
+  if (f.bet === false || f.picked === false) return false;
+  return hasPositiveEdge(f);
+}
+
 /**
- * Flat 1u on model favorite only when that side has +EV vs open odds.
- * Never bets the dog. Returns null if fight not graded.
+ * Flat 1u on model favorite only when that side has +EV vs open odds (or is marked bet/picked).
  * status: "win" | "loss" | "nobet"
  */
 function getBetDecision(f) {
@@ -193,8 +198,9 @@ function getBetDecision(f) {
     return { status: "nobet", side, edge: null, odds: null, conf, reason: "no odds" };
   }
 
+  const isBet = isModelBet(f);
   const edge = conf / 100 - ip;
-  if (edge <= 0) {
+  if (!isBet) {
     return { status: "nobet", side, edge, odds, conf, reason: "no edge" };
   }
 
@@ -544,16 +550,32 @@ function switchVizTab(evt, tabId) {
 }
 
 function betBadgeHtml(f, ev) {
-  if (ev.status !== "completed" || f.result == null || f.pA == null) return "";
+  if (f.pA == null) return "";
+
+  const pickA = f.pA >= 50;
+  const pickName = pickA ? f.a : f.b;
+  const conf = pickA ? f.pA : f.pB;
+  const odds = pickA ? f.oA : f.oB;
+  const ip = impliedProb(odds);
+  const edge = ip != null ? (conf / 100 - ip) : null;
+  const edgeStr = edge != null ? ` · ${(edge >= 0 ? "+" : "") + (edge * 100).toFixed(1)}% edge` : "";
+
+  // Upcoming card or fight awaiting outcome
+  if (ev.status !== "completed" || f.result == null) {
+    if (isModelBet(f)) {
+      return `<span class="bet-badge bet-bet" title="Model Bet on ${pickName} (${conf.toFixed(1)}% prob${edgeStr})">MODEL BET</span>`;
+    }
+    return "";
+  }
+
+  // Completed fight with result
   const d = getBetDecision(f);
   if (!d) return "";
   if (d.status === "win") {
-    const e = d.edge != null ? ` · +${(d.edge * 100).toFixed(1)}% edge` : "";
-    return `<span class="bet-badge bet-win" title="Flat 1u on model favorite${e}">MODEL WIN</span>`;
+    return `<span class="bet-badge bet-win" title="Model Won on ${pickName}${edgeStr}">MODEL WON</span>`;
   }
   if (d.status === "loss") {
-    const e = d.edge != null ? ` · +${(d.edge * 100).toFixed(1)}% edge` : "";
-    return `<span class="bet-badge bet-loss" title="Flat 1u on model favorite${e}">MODEL LOSS</span>`;
+    return `<span class="bet-badge bet-loss" title="Model Lost on ${pickName}${edgeStr}">MODEL LOST</span>`;
   }
   const why = d.reason === "no odds" ? "No open odds" : "No +EV on model favorite";
   return `<span class="bet-badge bet-nobet" title="${why}">NO BET</span>`;

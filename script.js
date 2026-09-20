@@ -19,17 +19,15 @@ const EVENTS = [
     name: "UFC 331: Pantoja vs. Van",
     date: "2026-09-19",
     location: "Los Angeles, California, USA",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Joshua Van", b: "Alexandre Pantoja", pA: 93.0, pB: 7.0, oA: -130, oB: +107, me: true, result: null, charts: "fights/Joshua Van_vs_ALEXANDRE PANTOJA" },
-      { a: "Arman Tsarukyan", b: "Mauricio Ruffy", pA: 61.5, pB: 38.5, oA: -333, oB: +250, me: false, result: null, charts: "fights/ARMAN TSARUKYAN_vs_Mauricio Ruffy" },
-      { a: "Renato Moicano", b: "Brian Ortega", pA: 83.4, pB: 16.6, oA: -200, oB: +169, me: false, result: null, charts: "fights/Renato Moicano_vs_BRIAN ORTEGA" },
-      { a: "Alonzo Menifield", b: "Iwo Baraniewski", pA: 30.7, pB: 69.3, oA: +208, oB: -250, me: false, result: null, charts: "fights/Alonzo Menifield_vs_Iwo Baraniewski" },
-      { a: "Marlon Vera", b: "Charles Jourdain", pA: 40.5, pB: 59.5, oA: +195, oB: -230, me: false, result: null, charts: "fights/MARLON VERA_vs_Charles Jourdain" },
-      { a: "Tai Tuivasa", b: "Robelis Despaigne", pA: 62.3, pB: 37.7, oA: +430, oB: -625, me: false, result: null, charts: "fights/Tai Tuivasa_vs_ROBELIS DESPAIGNE" },
-      { a: "Ryan Gandra", b: "Ozzy Diaz", pA: 75.3, pB: 24.7, oA: -491, oB: +350, me: false, result: null, charts: "fights/Ryan Gandra_vs_Ozzy Diaz" },
-      { a: "Edmen Shahbazyan", b: "Brunno Ferreira", pA: 77.0, pB: 23.0, oA: -167, oB: +135, me: false, result: null, charts: "fights/Edmen Shahbazyan_vs_Brunno Ferreira" },
-      { a: "Giga Chikadze", b: "Joanderson Brito", pA: 29.5, pB: 70.5, oA: +265, oB: -350, me: false, result: null, charts: "fights/GIGA CHIKADZE_vs_Joanderson Brito" }
+      { a: "Joshua Van", b: "Alexandre Pantoja", pA: 93.0, pB: 7.0, oA: -130, oB: +107, me: true, result: "A", charts: "fights/Joshua Van_vs_ALEXANDRE PANTOJA" },
+      { a: "Arman Tsarukyan", b: "Mauricio Ruffy", pA: 61.5, pB: 38.5, oA: -333, oB: +250, me: false, result: "A", charts: "fights/ARMAN TSARUKYAN_vs_Mauricio Ruffy" },
+      { a: "Alonzo Menifield", b: "Iwo Baraniewski", pA: 30.7, pB: 69.3, oA: +208, oB: -250, me: false, result: "A", charts: "fights/Alonzo Menifield_vs_Iwo Baraniewski" },
+      { a: "Marlon Vera", b: "Charles Jourdain", pA: 40.5, pB: 59.5, oA: +195, oB: -230, me: false, result: "A", charts: "fights/MARLON VERA_vs_Charles Jourdain" },
+      { a: "Ryan Gandra", b: "Ozzy Diaz", pA: 75.3, pB: 24.7, oA: -491, oB: +350, me: false, result: "A", charts: "fights/Ryan Gandra_vs_Ozzy Diaz" },
+      { a: "Edmen Shahbazyan", b: "Brunno Ferreira", pA: 77.0, pB: 23.0, oA: -167, oB: +135, me: false, result: "A", charts: "fights/Edmen Shahbazyan_vs_Brunno Ferreira" },
+      { a: "Giga Chikadze", b: "Joanderson Brito", pA: 29.5, pB: 70.5, oA: +265, oB: -350, me: false, result: "B", charts: "fights/GIGA CHIKADZE_vs_Joanderson Brito" }
     ]
   },
   {

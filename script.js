@@ -16,6 +16,19 @@
 
 const EVENTS = [
   {
+    name: "UFC Fight Night: Rosas Jr. vs. Barcelos",
+    date: "2026-09-26",
+    location: "Las Vegas, Nevada, USA",
+    status: "upcoming",
+    fights: [
+      { a: "Raul Rosas Jr.", b: "Raoni Barcelos", pA: 83.8, pB: 16.2, oA: -175, oB: +140, me: true, result: null, charts: "fights/RAUL ROSAS JR._vs_Raoni Barcelos" },
+      { a: "Brady Hiestand", b: "Rinya Nakamura", pA: 73.3, pB: 26.7, oA: +265, oB: -350, me: false, result: null, charts: "fights/BRADY HIESTAND_vs_RINYA NAKAMURA" },
+      { a: "Montel Jackson", b: "Ricky Simon", pA: 82.3, pB: 17.7, oA: -205, oB: +170, me: false, result: null, charts: "fights/Montel Jackson_vs_Ricky Simon" },
+      { a: "John Castaneda", b: "Alatengheili", pA: 68.9, pB: 31.1, oA: -335, oB: +250, me: false, result: null, charts: "fights/John Castaneda_vs_ALATENGHEILI" },
+      { a: "Sedriques Dumas", b: "Mickey Gall", pA: 71.4, pB: 28.6, oA: +135, oB: -165, me: false, result: null, charts: "fights/Sedriques Dumas_vs_MICKEY GALL" }
+    ]
+  },
+  {
     name: "UFC 331: Pantoja vs. Van",
     date: "2026-09-19",
     location: "Los Angeles, California, USA",

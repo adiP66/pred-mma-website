@@ -16,16 +16,28 @@
 
 const EVENTS = [
   {
+    name: "UFC 332: Figueiredo vs. Talbott",
+    date: "2026-10-03",
+    location: "Salt Lake City, Utah, USA",
+    status: "upcoming",
+    fights: [
+      { a: "Deiveson Figueiredo", b: "Payton Talbott", pA: 16.4, pB: 83.6, oA: +430, oB: -670, me: true, result: null, charts: "fights/Deiveson Figueiredo_vs_PAYTON TALBOTT" },
+      { a: "King Green", b: "Esteban Ribovics", pA: 67.8, pB: 32.2, oA: +200, oB: -250, me: false, result: null, charts: "fights/King Green_vs_Esteban Ribovics" },
+      { a: "Marcus McGhee", b: "Benardo Sopaj", pA: 48.0, pB: 52.0, oA: -145, oB: +120, me: false, result: null, charts: "fights/Marcus McGhee_vs_Benardo Sopaj" },
+      { a: "Ateba Gautier", b: "Roman Kopylov", pA: 88.9, pB: 11.1, oA: -205, oB: +170, me: false, result: null, charts: "fights/Ateba Gautier_vs_Roman Kopylov" },
+      { a: "Johnny Walker", b: "Mick Parkin", pA: 44.7, pB: 55.3, oA: -140, oB: +120, me: false, result: null, charts: "fights/Johnny Walker_vs_MICK PARKIN" }
+    ]
+  },
+  {
     name: "UFC Fight Night: Rosas Jr. vs. Barcelos",
     date: "2026-09-26",
     location: "Las Vegas, Nevada, USA",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Raul Rosas Jr.", b: "Raoni Barcelos", pA: 83.8, pB: 16.2, oA: -175, oB: +140, me: true, result: null, charts: "fights/RAUL ROSAS JR._vs_Raoni Barcelos" },
-      { a: "Brady Hiestand", b: "Rinya Nakamura", pA: 73.3, pB: 26.7, oA: +265, oB: -350, me: false, result: null, charts: "fights/BRADY HIESTAND_vs_RINYA NAKAMURA" },
-      { a: "Montel Jackson", b: "Ricky Simon", pA: 82.3, pB: 17.7, oA: -205, oB: +170, me: false, result: null, charts: "fights/Montel Jackson_vs_Ricky Simon" },
-      { a: "John Castaneda", b: "Alatengheili", pA: 68.9, pB: 31.1, oA: -335, oB: +250, me: false, result: null, charts: "fights/John Castaneda_vs_ALATENGHEILI" },
-      { a: "Sedriques Dumas", b: "Mickey Gall", pA: 71.4, pB: 28.6, oA: +135, oB: -165, me: false, result: null, charts: "fights/Sedriques Dumas_vs_MICKEY GALL" }
+      { a: "Raul Rosas Jr.", b: "Raoni Barcelos", pA: 83.8, pB: 16.2, oA: -175, oB: +140, me: true, result: "A", charts: "fights/RAUL ROSAS JR._vs_Raoni Barcelos" },
+      { a: "Brady Hiestand", b: "Rinya Nakamura", pA: 73.3, pB: 26.7, oA: +265, oB: -350, me: false, result: "A", charts: "fights/BRADY HIESTAND_vs_RINYA NAKAMURA" },
+      { a: "Montel Jackson", b: "Ricky Simon", pA: 82.3, pB: 17.7, oA: -205, oB: +170, me: false, result: 'A', charts: "fights/Montel Jackson_vs_Ricky Simon" },
+      { a: "John Castaneda", b: "Alatengheili", pA: 68.9, pB: 31.1, oA: -335, oB: +250, me: false, result: "B", charts: "fights/John Castaneda_vs_ALATENGHEILI" },
     ]
   },
   {

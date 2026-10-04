@@ -16,16 +16,29 @@
 
 const EVENTS = [
   {
-    name: "UFC 332: Figueiredo vs. Talbott",
-    date: "2026-10-03",
-    location: "Salt Lake City, Utah, USA",
+    name: "UFC Fight Night: Allen vs. Duncan",
+    date: "2026-10-10",
+    location: "Las Vegas, Nevada, USA",
     status: "upcoming",
     fights: [
-      { a: "Deiveson Figueiredo", b: "Payton Talbott", pA: 16.4, pB: 83.6, oA: +430, oB: -670, me: true, result: null, charts: "fights/Deiveson Figueiredo_vs_PAYTON TALBOTT" },
-      { a: "King Green", b: "Esteban Ribovics", pA: 67.8, pB: 32.2, oA: +200, oB: -250, me: false, result: null, charts: "fights/King Green_vs_Esteban Ribovics" },
-      { a: "Marcus McGhee", b: "Benardo Sopaj", pA: 48.0, pB: 52.0, oA: -145, oB: +120, me: false, result: null, charts: "fights/Marcus McGhee_vs_Benardo Sopaj" },
-      { a: "Ateba Gautier", b: "Roman Kopylov", pA: 88.9, pB: 11.1, oA: -205, oB: +170, me: false, result: null, charts: "fights/Ateba Gautier_vs_Roman Kopylov" },
-      { a: "Johnny Walker", b: "Mick Parkin", pA: 44.7, pB: 55.3, oA: -140, oB: +120, me: false, result: null, charts: "fights/Johnny Walker_vs_MICK PARKIN" }
+      { a: "Brendan Allen", b: "Christian Leroy Duncan", pA: 49.8, pB: 50.2, oA: -150, oB: +122, me: true, result: null, charts: "fights/Brendan Allen_vs_Christian Leroy Duncan" },
+      { a: "Matheus Camilo", b: "Jai Herbert", pA: 91.1, pB: 8.9, oA: -188, oB: +150, me: false, result: null, charts: "fights/Matheus Camilo_vs_Jai Herbert" },
+      { a: "Andre Fili", b: "Kai Kamaka III", pA: 48.3, pB: 51.7, oA: -150, oB: +122, me: false, result: null, charts: "fights/Andre Fili_vs_Kai Kamaka III" },
+      { a: "Julius Walker", b: "Gerald Meerschaert", pA: 71.7, pB: 28.3, oA: -265, oB: +205, me: false, result: null, charts: "fights/Julius Walker_vs_Gerald Meerschaert" },
+      { a: "Francisco Prado", b: "Ismael Bonfim", pA: 61.1, pB: 38.9, oA: +104, oB: -128, me: false, result: null, charts: "fights/Francisco Prado_vs_ISMAEL BONFIM" },
+      { a: "Felipe Franco", b: "Brendson Ribeiro", pA: 84.4, pB: 15.6, oA: -335, oB: +250, me: false, result: null, charts: "fights/Felipe Franco_vs_Brendson Ribeiro" }
+    ]
+  },
+  {
+    name: "UFC 332: Silva vs. Cong",
+    date: "2026-10-03",
+    location: "Salt Lake City, Utah, USA",
+    status: "completed",
+    fights: [
+      { a: "Deiveson Figueiredo", b: "Payton Talbott", pA: 16.4, pB: 83.6, oA: +430, oB: -670, me: false, result: 'B', charts: "fights/Deiveson Figueiredo_vs_PAYTON TALBOTT" },
+      { a: "King Green", b: "Esteban Ribovics", pA: 67.8, pB: 32.2, oA: +200, oB: -250, me: false, result: "B", charts: "fights/King Green_vs_Esteban Ribovics" },
+      { a: "Ateba Gautier", b: "Roman Kopylov", pA: 88.9, pB: 11.1, oA: -205, oB: +170, me: false, result: "B", charts: "fights/Ateba Gautier_vs_Roman Kopylov" },
+      { a: "Johnny Walker", b: "Mick Parkin", pA: 44.7, pB: 55.3, oA: -140, oB: +120, me: false, result: "A", charts: "fights/Johnny Walker_vs_MICK PARKIN" }
     ]
   },
   {

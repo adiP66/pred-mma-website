@@ -1,0 +1,37 @@
+[
+  {
+    "fighter_a": "Deiveson Figueiredo",
+    "fighter_b": "Payton Talbott",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-03"
+  },
+  {
+    "fighter_a": "King Green",
+    "fighter_b": "Esteban Ribovics",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-03"
+  },
+  {
+    "fighter_a": "Marcus McGhee",
+    "fighter_b": "Benardo Sopaj",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-03"
+  },
+  {
+    "fighter_a": "Ateba Gautier",
+    "fighter_b": "Roman Kopylov",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-03"
+  },
+  {
+    "fighter_a": "Johnny Walker",
+    "fighter_b": "Mick Parkin",
+    "weight_class": "Heavyweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-03"
+  }
+]

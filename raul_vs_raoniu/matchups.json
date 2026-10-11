@@ -1,0 +1,37 @@
+[
+  {
+    "fighter_a": "Raul Rosas Jr.",
+    "fighter_b": "Raoni Barcelos",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 5,
+    "event_date": "2026-9-26"
+  },
+  {
+    "fighter_a": "Brady Hiestand",
+    "fighter_b": "Rinya Nakamura",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-26"
+  },
+  {
+    "fighter_a": "Montel Jackson",
+    "fighter_b": "Ricky Simon",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-26"
+  },
+  {
+    "fighter_a": "John Castaneda",
+    "fighter_b": "Alatengheili",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-26"
+  },
+  {
+    "fighter_a": "Sedriques Dumas",
+    "fighter_b": "Mickey Gall",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-9-26"
+  }
+]

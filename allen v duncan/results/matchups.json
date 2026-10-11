@@ -1,0 +1,58 @@
+[
+  {
+    "fighter_a": "Brendan Allen",
+    "fighter_b": "Christian Leroy Duncan",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 5,
+    "event_date": "2026-10-10"
+  },
+  {
+    "fighter_a": "Matheus Camilo",
+    "fighter_b": "Jai Herbert",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-10"
+  },
+  {
+    "fighter_a": "Andre Fili",
+    "fighter_b": "Kai Kamaka III",
+    "weight_class": "Featherweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-10"
+  },
+  {
+    "fighter_a": "Julius Walker",
+    "fighter_b": "Gerald Meerschaert",
+    "weight_class": "Light Heavyweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-10"
+  },
+  {
+    "fighter_a": "Malcolm Wellmaker",
+    "fighter_b": "Otari Tanzilovi",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-10"
+  },
+  {
+    "fighter_a": "Francisco Prado",
+    "fighter_b": "Ismael Bonfim",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-10"
+  },
+  {
+    "fighter_a": "Niko Price",
+    "fighter_b": "Leon Shahbazyan",
+    "weight_class": "Welterweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-10"
+  },
+  {
+    "fighter_a": "Felipe Franco",
+    "fighter_b": "Brendson Ribeiro",
+    "weight_class": "Light Heavyweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-10-10"
+  }
+]

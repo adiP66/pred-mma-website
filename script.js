@@ -19,14 +19,14 @@ const EVENTS = [
     name: "UFC Fight Night: Allen vs. Duncan",
     date: "2026-10-10",
     location: "Las Vegas, Nevada, USA",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Brendan Allen", b: "Christian Leroy Duncan", pA: 49.8, pB: 50.2, oA: -150, oB: +122, me: true, result: null, charts: "fights/Brendan Allen_vs_Christian Leroy Duncan" },
-      { a: "Matheus Camilo", b: "Jai Herbert", pA: 91.1, pB: 8.9, oA: -188, oB: +150, me: false, result: null, charts: "fights/Matheus Camilo_vs_Jai Herbert" },
-      { a: "Andre Fili", b: "Kai Kamaka III", pA: 48.3, pB: 51.7, oA: -150, oB: +122, me: false, result: null, charts: "fights/Andre Fili_vs_Kai Kamaka III" },
-      { a: "Julius Walker", b: "Gerald Meerschaert", pA: 71.7, pB: 28.3, oA: -265, oB: +205, me: false, result: null, charts: "fights/Julius Walker_vs_Gerald Meerschaert" },
-      { a: "Francisco Prado", b: "Ismael Bonfim", pA: 61.1, pB: 38.9, oA: +104, oB: -128, me: false, result: null, charts: "fights/Francisco Prado_vs_ISMAEL BONFIM" },
-      { a: "Felipe Franco", b: "Brendson Ribeiro", pA: 84.4, pB: 15.6, oA: -335, oB: +250, me: false, result: null, charts: "fights/Felipe Franco_vs_Brendson Ribeiro" }
+      { a: "Brendan Allen", b: "Christian Leroy Duncan", pA: 49.8, pB: 50.2, oA: -150, oB: +122, me: true, result: "A", charts: "fights/Brendan Allen_vs_Christian Leroy Duncan" },
+      { a: "Matheus Camilo", b: "Jai Herbert", pA: 91.1, pB: 8.9, oA: -188, oB: +150, me: false, result: "B", charts: "fights/Matheus Camilo_vs_Jai Herbert" },
+      { a: "Andre Fili", b: "Kai Kamaka III", pA: 48.3, pB: 51.7, oA: -150, oB: +122, me: false, result: "A", charts: "fights/Andre Fili_vs_Kai Kamaka III" },
+      { a: "Julius Walker", b: "Gerald Meerschaert", pA: 71.7, pB: 28.3, oA: -265, oB: +205, me: false, result: "A", charts: "fights/Julius Walker_vs_Gerald Meerschaert" },
+      { a: "Francisco Prado", b: "Ismael Bonfim", pA: 61.1, pB: 38.9, oA: +104, oB: -128, me: false, result: "A", charts: "fights/Francisco Prado_vs_ISMAEL BONFIM" },
+      { a: "Felipe Franco", b: "Brendson Ribeiro", pA: 84.4, pB: 15.6, oA: -335, oB: +250, me: false, result: "B", charts: "fights/Felipe Franco_vs_Brendson Ribeiro" }
     ]
   },
   {

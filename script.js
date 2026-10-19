@@ -16,6 +16,22 @@
 
 const EVENTS = [
   {
+    name: "UFC 333: Volkanovski vs. Evloev",
+    date: "2026-10-24",
+    location: "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+    status: "upcoming",
+    fights: [
+      { a: "Alexander Volkanovski", b: "Movsar Evloev", pA: 48.8, pB: 51.2, oA: -115, oB: -105, me: true, result: null, charts: "fights/Alexander Volkanovski_vs_Movsar Evloev" },
+      { a: "Petr Yan", b: "Merab Dvalishvili", pA: 65.1, pB: 34.9, oA: -175, oB: +145, me: false, result: null, charts: "fights/Petr Yan_vs_Merab Dvalishvili" },
+      { a: "Lone'er Kavanagh", b: "Ramazan Temirov", pA: 71.4, pB: 28.6, oA: -115, oB: -105, me: false, result: null, charts: "fights/Lone'er Kavanagh_vs_Ramazan Temirov" },
+      { a: "Alexander Volkov", b: "Rizvan Kuniev", pA: 84.6, pB: 15.4, oA: -125, oB: +105, me: false, result: null, charts: "fights/Alexander Volkov_vs_Rizvan Kuniev" },
+      { a: "Azamat Murzakanov", b: "Dominick Reyes", pA: 76.3, pB: 23.7, oA: -215, oB: +180, me: false, result: null, charts: "fights/Azamat Murzakanov_vs_Dominick Reyes" },
+      { a: "Nikita Krylov", b: "Abdul Rakhman Yakhyaev", pA: 28.8, pB: 71.2, oA: +145, oB: -175, me: false, result: null, charts: "fights/Nikita Krylov_vs_Abdul Rakhman Yakhyaev" },
+      { a: "Abus Magomedov", b: "Cam Rowston", pA: 41.7, pB: 58.3, oA: -110, oB: -110, me: false, result: null, charts: "fights/Abus Magomedov_vs_Cam Rowston" },
+      { a: "Grant Dawson", b: "Nurullo Aliev", pA: 34.5, pB: 65.5, oA: -110, oB: -110, me: false, result: null, charts: "fights/Grant Dawson_vs_Nurullo Aliev" }
+    ]
+  },
+  {
     name: "UFC Fight Night: Allen vs. Duncan",
     date: "2026-10-10",
     location: "Las Vegas, Nevada, USA",

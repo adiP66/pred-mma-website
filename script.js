@@ -16,19 +16,32 @@
 
 const EVENTS = [
   {
+    name: "UFC Fight Night: Moicano vs. Nolan",
+    date: "2026-10-31",
+    location: "Las Vegas, Nevada, USA",
+    status: "upcoming",
+    fights: [
+      { a: "Renato Moicano", b: "Tom Nolan", pA: 30.5, pB: 69.5, oA: -120, oB: +100, me: true, result: null, charts: "fights/Renato Moicano_vs_Tom Nolan" },
+      { a: "Randy Brown", b: "Jacobe Smith", pA: 24.5, pB: 75.5, oA: +215, oB: -270, me: false, result: null, charts: "fights/Randy Brown_vs_JACOBE SMITH" },
+      { a: "Ode Osbourne", b: "Cody Durden", pA: 66.8, pB: 33.2, oA: -125, oB: +102, me: false, result: null, charts: "fights/Ode Osbourne_vs_Cody Durden" },
+      { a: "Julian Erosa", b: "JeongYeong Lee", pA: 53.2, pB: 46.8, oA: +143, oB: -175, me: false, result: null, charts: "fights/JULIAN EROSA_vs_JEONGYEONG LEE" },
+      { a: "Zach Reese", b: "Mickey Gall", pA: 77.8, pB: 22.2, oA: -400, oB: +297, me: false, result: null, charts: "fights/Zach Reese_vs_MICKEY GALL" }
+    ]
+  },
+  {
     name: "UFC 333: Volkanovski vs. Evloev",
     date: "2026-10-24",
     location: "Abu Dhabi, Abu Dhabi, United Arab Emirates",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Alexander Volkanovski", b: "Movsar Evloev", pA: 48.8, pB: 51.2, oA: -115, oB: -105, me: true, result: null, charts: "fights/Alexander Volkanovski_vs_Movsar Evloev" },
-      { a: "Petr Yan", b: "Merab Dvalishvili", pA: 65.1, pB: 34.9, oA: -175, oB: +145, me: false, result: null, charts: "fights/Petr Yan_vs_Merab Dvalishvili" },
-      { a: "Lone'er Kavanagh", b: "Ramazan Temirov", pA: 71.4, pB: 28.6, oA: -115, oB: -105, me: false, result: null, charts: "fights/Lone'er Kavanagh_vs_Ramazan Temirov" },
-      { a: "Alexander Volkov", b: "Rizvan Kuniev", pA: 84.6, pB: 15.4, oA: -125, oB: +105, me: false, result: null, charts: "fights/Alexander Volkov_vs_Rizvan Kuniev" },
-      { a: "Azamat Murzakanov", b: "Dominick Reyes", pA: 76.3, pB: 23.7, oA: -215, oB: +180, me: false, result: null, charts: "fights/Azamat Murzakanov_vs_Dominick Reyes" },
-      { a: "Nikita Krylov", b: "Abdul Rakhman Yakhyaev", pA: 28.8, pB: 71.2, oA: +145, oB: -175, me: false, result: null, charts: "fights/Nikita Krylov_vs_Abdul Rakhman Yakhyaev" },
-      { a: "Abus Magomedov", b: "Cam Rowston", pA: 41.7, pB: 58.3, oA: -110, oB: -110, me: false, result: null, charts: "fights/Abus Magomedov_vs_Cam Rowston" },
-      { a: "Grant Dawson", b: "Nurullo Aliev", pA: 34.5, pB: 65.5, oA: -110, oB: -110, me: false, result: null, charts: "fights/Grant Dawson_vs_Nurullo Aliev" }
+      { a: "Alexander Volkanovski", b: "Movsar Evloev", pA: 48.8, pB: 51.2, oA: -115, oB: -105, me: true, result: "A", charts: "fights/Alexander Volkanovski_vs_Movsar Evloev" },
+      { a: "Petr Yan", b: "Merab Dvalishvili", pA: 65.1, pB: 34.9, oA: -175, oB: +145, me: false, result: "A", charts: "fights/Petr Yan_vs_Merab Dvalishvili" },
+      { a: "Lone'er Kavanagh", b: "Ramazan Temirov", pA: 71.4, pB: 28.6, oA: -115, oB: -105, me: false, result: "A", charts: "fights/Lone'er Kavanagh_vs_Ramazan Temirov" },
+      { a: "Alexander Volkov", b: "Rizvan Kuniev", pA: 84.6, pB: 15.4, oA: -125, oB: +105, me: false, result: "A", charts: "fights/Alexander Volkov_vs_Rizvan Kuniev" },
+      { a: "Azamat Murzakanov", b: "Dominick Reyes", pA: 76.3, pB: 23.7, oA: -215, oB: +180, me: false, result: "B", charts: "fights/Azamat Murzakanov_vs_Dominick Reyes" },
+      { a: "Nikita Krylov", b: "Abdul Rakhman Yakhyaev", pA: 28.8, pB: 71.2, oA: +145, oB: -175, me: false, result: "B", charts: "fights/Nikita Krylov_vs_Abdul Rakhman Yakhyaev" },
+      { a: "Abus Magomedov", b: "Cam Rowston", pA: 41.7, pB: 58.3, oA: -110, oB: -110, me: false, result: "A", charts: "fights/Abus Magomedov_vs_Cam Rowston" },
+      { a: "Grant Dawson", b: "Nurullo Aliev", pA: 34.5, pB: 65.5, oA: -110, oB: -110, me: false, result: "A", charts: "fights/Grant Dawson_vs_Nurullo Aliev" }
     ]
   },
   {

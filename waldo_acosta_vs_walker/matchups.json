@@ -1,0 +1,23 @@
+[
+  {
+    "fighter_a": "Waldo Cortes Acosta",
+    "fighter_b": "Johnny Walker",
+    "weight_class": "Heavyweight",
+    "scheduled_rounds": 5,
+    "event_date": "2026-11-07"
+  },
+  {
+    "fighter_a": "Davey Grant",
+    "fighter_b": "Elijah Smith",
+    "weight_class": "Welterweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-07"
+  },
+  {
+    "fighter_a": "Seokhyeon Ko",
+    "fighter_b": "Wellington Turman",
+    "weight_class": "Welterweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-07"
+  }
+]

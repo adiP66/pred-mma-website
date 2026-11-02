@@ -16,16 +16,27 @@
 
 const EVENTS = [
   {
-    name: "UFC Fight Night: Moicano vs. Nolan",
-    date: "2026-10-31",
+    name: "UFC Fight Night: Cortes Acosta vs. Walker",
+    date: "2026-11-07",
     location: "Las Vegas, Nevada, USA",
     status: "upcoming",
     fights: [
-      { a: "Renato Moicano", b: "Tom Nolan", pA: 30.5, pB: 69.5, oA: -120, oB: +100, me: true, result: null, charts: "fights/Renato Moicano_vs_Tom Nolan" },
-      { a: "Randy Brown", b: "Jacobe Smith", pA: 24.5, pB: 75.5, oA: +215, oB: -270, me: false, result: null, charts: "fights/Randy Brown_vs_JACOBE SMITH" },
-      { a: "Ode Osbourne", b: "Cody Durden", pA: 66.8, pB: 33.2, oA: -125, oB: +102, me: false, result: null, charts: "fights/Ode Osbourne_vs_Cody Durden" },
-      { a: "Julian Erosa", b: "JeongYeong Lee", pA: 53.2, pB: 46.8, oA: +143, oB: -175, me: false, result: null, charts: "fights/JULIAN EROSA_vs_JEONGYEONG LEE" },
-      { a: "Zach Reese", b: "Mickey Gall", pA: 77.8, pB: 22.2, oA: -400, oB: +297, me: false, result: null, charts: "fights/Zach Reese_vs_MICKEY GALL" }
+      { a: "Waldo Cortes Acosta", b: "Johnny Walker", pA: 83.3, pB: 16.7, oA: -201, oB: +170, me: true, result: null, charts: "fights/Waldo Cortes Acosta_vs_Johnny Walker" },
+      { a: "Davey Grant", b: "Elijah Smith", pA: 8.5, pB: 91.5, oA: +161, oB: -190, me: false, result: null, charts: "fights/Davey Grant_vs_ELIJAH SMITH" },
+      { a: "Seokhyeon Ko", b: "Wellington Turman", pA: 76.1, pB: 23.9, oA: -575, oB: +400, me: false, result: null, charts: "fights/Seokhyeon Ko_vs_WELLINGTON TURMAN" }
+    ]
+  },
+  {
+    name: "UFC Fight Night: Moicano vs. Nolan",
+    date: "2026-10-31",
+    location: "Las Vegas, Nevada, USA",
+    status: "completed",
+    fights: [
+      { a: "Renato Moicano", b: "Tom Nolan", pA: 30.5, pB: 69.5, oA: -120, oB: +100, me: true, result: "B", charts: "fights/Renato Moicano_vs_Tom Nolan" },
+      { a: "Randy Brown", b: "Jacobe Smith", pA: 24.5, pB: 75.5, oA: +215, oB: -270, me: false, result: "B", charts: "fights/Randy Brown_vs_JACOBE SMITH" },
+      { a: "Ode Osbourne", b: "Cody Durden", pA: 66.8, pB: 33.2, oA: -125, oB: +102, me: false, result: "B", charts: "fights/Ode Osbourne_vs_Cody Durden" },
+      { a: "Julian Erosa", b: "JeongYeong Lee", pA: 53.2, pB: 46.8, oA: +143, oB: -175, me: false, result: "A", charts: "fights/JULIAN EROSA_vs_JEONGYEONG LEE" },
+      { a: "Zach Reese", b: "Mickey Gall", pA: 77.8, pB: 22.2, oA: -400, oB: +297, me: false, result: "A", charts: "fights/Zach Reese_vs_MICKEY GALL" }
     ]
   },
   {

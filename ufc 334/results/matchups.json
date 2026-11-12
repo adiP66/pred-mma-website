@@ -1,0 +1,65 @@
+[
+  {
+    "fighter_a": "Caio Borralho",
+    "fighter_b": "Yousri Belgaroui",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-14"
+  },
+  {
+    "fighter_a": "Uros Medic",
+    "fighter_b": "Kevin Holland",
+    "weight_class": "Welterweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-14"
+  },
+  {
+    "fighter_a": "Stephen Thompson",
+    "fighter_b": "Charles Radtke",
+    "weight_class": "Welterweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-14"
+  },
+  {
+    "fighter_a": "Drew Dober",
+    "fighter_b": "Chris Duncan",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-14"
+  },
+  {
+    "fighter_a": "Jim Miller",
+    "fighter_b": "Terrance McKinney",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-14"
+  },
+  {
+    "fighter_a": "Donte Johnson",
+    "fighter_b": "Cesar Almeida",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-14"
+  },
+  {
+    "fighter_a": "Melquizael Costa",
+    "fighter_b": "Jared Gordon",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-14"
+  },
+  {
+    "fighter_a": "Alatengheili",
+    "fighter_b": "Juan Diaz",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-14"
+  },
+  {
+    "fighter_a": "Ciryl Gane",
+    "fighter_b": "Josh Hokit",
+    "weight_class": "Heavyweight",
+    "scheduled_rounds": 5,
+    "event_date": "2026-11-14"
+  }
+]

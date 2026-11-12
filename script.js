@@ -16,14 +16,30 @@
 
 const EVENTS = [
   {
+    name: "UFC 334: Gane vs. Hokit",
+    date: "2026-11-14",
+    location: "New York, New York, USA",
+    status: "upcoming",
+    fights: [
+      { a: "Ciryl Gane", b: "Josh Hokit", pA: 62.2, pB: 37.8, oA: -218, oB: +180, me: true, result: null, charts: "fights/Ciryl Gane_vs_Josh Hokit" },
+      { a: "Caio Borralho", b: "Yousri Belgaroui", pA: 51.3, pB: 48.7, oA: -162, oB: +136, me: false, result: null, charts: "fights/CAIO BORRALHO_vs_YOUSRI BELGAROUI" },
+      { a: "Uros Medic", b: "Kevin Holland", pA: 56.7, pB: 43.3, oA: -148, oB: +124, me: false, result: null, charts: "fights/UROS MEDIC_vs_Kevin Holland" },
+      { a: "Stephen Thompson", b: "Charles Radtke", pA: 37.1, pB: 62.9, oA: -155, oB: +130, me: false, result: null, charts: "fights/STEPHEN THOMPSON_vs_Charles Radtke" },
+      { a: "Drew Dober", b: "Chris Duncan", pA: 27.2, pB: 72.8, oA: +142, oB: -170, me: false, result: null, charts: "fights/DREW DOBER_vs_Chris Duncan" },
+      { a: "Jim Miller", b: "Terrance McKinney", pA: 29.5, pB: 70.5, oA: +164, oB: -198, me: false, result: null, charts: "fights/Jim Miller_vs_Terrance McKinney" },
+      { a: "Donte Johnson", b: "Cesar Almeida", pA: 85.9, pB: 14.1, oA: -175, oB: +145, me: false, result: null, charts: "fights/DONTE JOHNSON_vs_Cesar Almeida" },
+      { a: "Melquizael Costa", b: "Jared Gordon", pA: 89.6, pB: 10.4, oA: -375, oB: +295, me: false, result: null, charts: "fights/Melquizael Costa_vs_Jared Gordon" }
+    ]
+  },
+  {
     name: "UFC Fight Night: Cortes Acosta vs. Walker",
     date: "2026-11-07",
     location: "Las Vegas, Nevada, USA",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Waldo Cortes Acosta", b: "Johnny Walker", pA: 83.3, pB: 16.7, oA: -201, oB: +170, me: true, result: null, charts: "fights/Waldo Cortes Acosta_vs_Johnny Walker" },
-      { a: "Davey Grant", b: "Elijah Smith", pA: 8.5, pB: 91.5, oA: +161, oB: -190, me: false, result: null, charts: "fights/Davey Grant_vs_ELIJAH SMITH" },
-      { a: "Seokhyeon Ko", b: "Wellington Turman", pA: 76.1, pB: 23.9, oA: -575, oB: +400, me: false, result: null, charts: "fights/Seokhyeon Ko_vs_WELLINGTON TURMAN" }
+      { a: "Waldo Cortes Acosta", b: "Johnny Walker", pA: 83.3, pB: 16.7, oA: -201, oB: +170, me: true, result: "B", charts: "fights/Waldo Cortes Acosta_vs_Johnny Walker" },
+      { a: "Davey Grant", b: "Elijah Smith", pA: 8.5, pB: 91.5, oA: +161, oB: -190, me: false, result: "B", charts: "fights/Davey Grant_vs_ELIJAH SMITH" },
+      { a: "Seokhyeon Ko", b: "Wellington Turman", pA: 76.1, pB: 23.9, oA: -575, oB: +400, me: false, result: "A", charts: "fights/Seokhyeon Ko_vs_WELLINGTON TURMAN" }
     ]
   },
   {

@@ -326,6 +326,7 @@ nav {
 
 .result-w { color: var(--green); font-weight: 700; font-size: 12px; }
 .result-l { color: var(--red); font-weight: 700; font-size: 12px; }
+.result-d { color: var(--gold); font-weight: 700; font-size: 12px; }
 
 .vs {
   text-align: center;

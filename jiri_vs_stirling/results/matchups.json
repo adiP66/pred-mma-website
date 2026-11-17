@@ -1,0 +1,44 @@
+[
+  {
+    "fighter_a": "Jiri Prochazka",
+    "fighter_b": "Navajo Stirling",
+    "weight_class": "Light Heavyweight",
+    "scheduled_rounds": 5,
+    "event_date": "2026-11-21"
+  },
+  {
+    "fighter_a": "Aljamain Sterling",
+    "fighter_b": "Kevin Vallejos",
+    "weight_class": "Featherweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-21"
+  },
+  {
+    "fighter_a": "Dan Hooker",
+    "fighter_b": "Brian Ortega",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-21"
+  },
+  {
+    "fighter_a": "Kyoji Horiguchi",
+    "fighter_b": "Asu Almabayev",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-21"
+  },
+  {
+    "fighter_a": "Shamil Gaziev",
+    "fighter_b": "Tallison Teixeira",
+    "weight_class": "Heavyweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-21"
+  },
+  {
+    "fighter_a": "Amir Albazi",
+    "fighter_b": "Alessandro Costa",
+    "weight_class": "Flyweight",
+    "scheduled_rounds": 3,
+    "event_date": "2026-11-21"
+  }
+]

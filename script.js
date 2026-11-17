@@ -4,7 +4,7 @@
  * HOW TO ADD AN EVENT:
  *   Push a new object to EVENTS[].
  *   pA/pB = null means "awaiting model output."
- *   result = "A" | "B" | null (null = not yet fought).
+ *   result = "A" | "B" | "D" | null (D = draw, null = not yet fought).
  *   me = true marks the main event (red left bar).
  *   edge = true/false forces the gold +EV border; omit to auto-detect
  *   when the model favorite has +edge vs open odds.
@@ -16,19 +16,33 @@
 
 const EVENTS = [
   {
+    name: "UFC Fight Night: Prochazka vs. Stirling",
+    date: "2026-11-21",
+    location: "Doha, Qatar",
+    status: "upcoming",
+    fights: [
+      { a: "Jiri Prochazka", b: "Navajo Stirling", pA: 28.8, pB: 71.2, oA: +135, oB: -163, me: true, result: null, charts: "fights/Jiri Prochazka_vs_Navajo Stirling" },
+      { a: "Aljamain Sterling", b: "Kevin Vallejos", pA: 21.4, pB: 78.6, oA: +112, oB: -135, me: false, result: null, charts: "fights/Aljamain Sterling_vs_KEVIN VALLEJOS" },
+      { a: "Dan Hooker", b: "Brian Ortega", pA: 74.4, pB: 25.6, oA: -188, oB: +154, me: false, result: null, charts: "fights/DAN HOOKER_vs_BRIAN ORTEGA" },
+      { a: "Kyoji Horiguchi", b: "Asu Almabayev", pA: 31.1, pB: 68.9, oA: -201, oB: +164, me: false, result: null, charts: "fights/Kyoji Horiguchi_vs_Asu Almabayev" },
+      { a: "Shamil Gaziev", b: "Tallison Teixeira", pA: 39.3, pB: 60.7, oA: -202, oB: +165, me: false, result: null, charts: "fights/Shamil Gaziev_vs_Tallison Teixeira" },
+      { a: "Amir Albazi", b: "Alessandro Costa", pA: 52.2, pB: 47.8, oA: -110, oB: -110, me: false, result: null, charts: "fights/AMIR ALBAZI_vs_Alessandro Costa" }
+    ]
+  },
+  {
     name: "UFC 334: Gane vs. Hokit",
     date: "2026-11-14",
     location: "New York, New York, USA",
-    status: "upcoming",
+    status: "completed",
     fights: [
-      { a: "Ciryl Gane", b: "Josh Hokit", pA: 62.2, pB: 37.8, oA: -218, oB: +180, me: true, result: null, charts: "fights/Ciryl Gane_vs_Josh Hokit" },
-      { a: "Caio Borralho", b: "Yousri Belgaroui", pA: 51.3, pB: 48.7, oA: -162, oB: +136, me: false, result: null, charts: "fights/CAIO BORRALHO_vs_YOUSRI BELGAROUI" },
-      { a: "Uros Medic", b: "Kevin Holland", pA: 56.7, pB: 43.3, oA: -148, oB: +124, me: false, result: null, charts: "fights/UROS MEDIC_vs_Kevin Holland" },
-      { a: "Stephen Thompson", b: "Charles Radtke", pA: 37.1, pB: 62.9, oA: -155, oB: +130, me: false, result: null, charts: "fights/STEPHEN THOMPSON_vs_Charles Radtke" },
-      { a: "Drew Dober", b: "Chris Duncan", pA: 27.2, pB: 72.8, oA: +142, oB: -170, me: false, result: null, charts: "fights/DREW DOBER_vs_Chris Duncan" },
-      { a: "Jim Miller", b: "Terrance McKinney", pA: 29.5, pB: 70.5, oA: +164, oB: -198, me: false, result: null, charts: "fights/Jim Miller_vs_Terrance McKinney" },
-      { a: "Donte Johnson", b: "Cesar Almeida", pA: 85.9, pB: 14.1, oA: -175, oB: +145, me: false, result: null, charts: "fights/DONTE JOHNSON_vs_Cesar Almeida" },
-      { a: "Melquizael Costa", b: "Jared Gordon", pA: 89.6, pB: 10.4, oA: -375, oB: +295, me: false, result: null, charts: "fights/Melquizael Costa_vs_Jared Gordon" }
+      { a: "Ciryl Gane", b: "Josh Hokit", pA: 62.2, pB: 37.8, oA: -218, oB: +180, me: true, result: "A", charts: "fights/Ciryl Gane_vs_Josh Hokit" },
+      { a: "Caio Borralho", b: "Yousri Belgaroui", pA: 51.3, pB: 48.7, oA: -162, oB: +136, me: false, result: "A", charts: "fights/CAIO BORRALHO_vs_YOUSRI BELGAROUI" },
+      { a: "Uros Medic", b: "Kevin Holland", pA: 56.7, pB: 43.3, oA: -148, oB: +124, me: false, result: "D", charts: "fights/UROS MEDIC_vs_Kevin Holland" },
+      { a: "Stephen Thompson", b: "Charles Radtke", pA: 37.1, pB: 62.9, oA: -155, oB: +130, me: false, result: "A", charts: "fights/STEPHEN THOMPSON_vs_Charles Radtke" },
+      { a: "Drew Dober", b: "Chris Duncan", pA: 27.2, pB: 72.8, oA: +142, oB: -170, me: false, result: "B", charts: "fights/DREW DOBER_vs_Chris Duncan" },
+      { a: "Jim Miller", b: "Terrance McKinney", pA: 29.5, pB: 70.5, oA: +164, oB: -198, me: false, result: "B", charts: "fights/Jim Miller_vs_Terrance McKinney" },
+      { a: "Donte Johnson", b: "Cesar Almeida", pA: 85.9, pB: 14.1, oA: -175, oB: +145, me: false, result: "B", charts: "fights/DONTE JOHNSON_vs_Cesar Almeida" },
+      { a: "Melquizael Costa", b: "Jared Gordon", pA: 89.6, pB: 10.4, oA: -375, oB: +295, me: false, result: "A", charts: "fights/Melquizael Costa_vs_Jared Gordon" }
     ]
   },
   {
@@ -295,6 +309,11 @@ function getBetDecision(f) {
     return { status: "nobet", side, edge, odds, conf, reason: "no edge" };
   }
 
+  // Draw = push, stake refunded
+  if (f.result === "D") {
+    return { status: "push", side, edge, odds, conf, won: false, profit: 0, stake: 1 };
+  }
+
   const won = f.result === side;
   const profit = won ? decimalOdds(odds) - 1 : -1;
   return {
@@ -313,6 +332,7 @@ function getBetDecision(f) {
 function computeLiveMetrics(events) {
   const predicted = [];
   const valueBets = [];
+  let nDraws = 0;
 
   const chrono = [...events].sort((a, b) => new Date(a.date) - new Date(b.date));
 
@@ -320,6 +340,7 @@ function computeLiveMetrics(events) {
     if (ev.status !== "completed") return;
     ev.fights.forEach((f, fi) => {
       if (f.pA == null || f.result == null) return;
+      if (f.result === "D") { nDraws++; return; }
 
       const conf = Math.max(f.pA, f.pB);
       const pickA = f.pA >= 50;
@@ -388,6 +409,7 @@ function computeLiveMetrics(events) {
   return {
     nPred,
     nCorrect,
+    nDraws,
     accuracy,
     avgConf,
     nBets: valueBets.length,
@@ -456,21 +478,22 @@ function renderDashboard(m) {
   const foot = document.getElementById("dash-footnote");
   if (foot) {
     foot.textContent = m.nPred
-      ? `Live track record · ${m.nPred} graded fights. ROI / bankroll after more cards.`
+      ? `Live track record · ${m.nPred} graded fights${m.nDraws ? ` · ${m.nDraws} draw excluded` : ""}. ROI / bankroll after more cards.`
       : "Live track record · ROI / bankroll after more graded fights.";
   }
 }
 
 function record(ev) {
   if (ev.status !== "completed") return null;
-  let w = 0, l = 0;
+  let w = 0, l = 0, d = 0;
   ev.fights.forEach(f => {
     if (f.result == null || f.pA == null) return;
+    if (f.result === "D") { d++; return; }
     const pickA = f.pA >= 50;
     const correct = (pickA && f.result === "A") || (!pickA && f.result === "B");
     correct ? w++ : l++;
   });
-  return { w, l };
+  return { w, l, d };
 }
 
 function fightSlug(f) {
@@ -668,6 +691,9 @@ function betBadgeHtml(f, ev) {
   if (d.status === "loss") {
     return `<span class="bet-badge bet-loss" title="Model Lost on ${pickName}${edgeStr}">MODEL LOST</span>`;
   }
+  if (d.status === "push") {
+    return `<span class="bet-badge bet-nobet" title="Draw — stake refunded">PUSH</span>`;
+  }
   const why = d.reason === "no odds" ? "No open odds" : "No +EV on model favorite";
   return `<span class="bet-badge bet-nobet" title="${why}">NO BET</span>`;
 }
@@ -701,6 +727,7 @@ function renderFight(f, ev, idx) {
   let resA = "", resB = "";
   if (f.result === "A") { resA = '<span class="result-w">W</span>'; resB = '<span class="result-l">L</span>'; }
   if (f.result === "B") { resA = '<span class="result-l">L</span>'; resB = '<span class="result-w">W</span>'; }
+  if (f.result === "D") { resA = '<span class="result-d">D</span>'; resB = '<span class="result-d">D</span>'; }
 
   const badge = betBadgeHtml(f, ev);
 
@@ -737,7 +764,9 @@ function renderFight(f, ev, idx) {
 
 function renderEvent(ev, isFirst) {
   const rec = record(ev);
-  const recStr = rec ? `${rec.w}W-${rec.l}L` : `${ev.fights.length} fights`;
+  const recStr = rec
+    ? `${rec.w}W-${rec.l}L${rec.d ? `-${rec.d}D` : ""}`
+    : `${ev.fights.length} fights`;
   const tagCls = ev.status === "upcoming" ? "tag-upcoming" : "tag-completed";
 
   const rows = ev.fights.map((f, i) => renderFight(f, ev, i)).join("");
